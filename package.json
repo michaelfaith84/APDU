@@ -1,0 +1,20 @@
+{
+  "name": "apdu.js",
+  "version": "0.5.0",
+  "description": "A set of tools that simplify working with APDUs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.5.3"
+  },
+  "private": false,
+  "author": {
+    "name": "Michael Faith",
+    "email": "me@mike.faith",
+    "url": "https://github.com/michaelfaith84"
+  },
+  "license": "MIT"
+}

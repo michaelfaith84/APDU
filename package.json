@@ -4,11 +4,20 @@
   "description": "A set of tools that simplify working with APDUs.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
     "typescript": "^5.5.3"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "private": false,
   "author": {
